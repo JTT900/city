@@ -1,0 +1,96 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Ubuntu', sans-serif; 
+    width: 720px; 
+    color: #1D3557
+}
+
+#hero {
+    background-image: url("images/hagfors.jpg");
+    background-size: cover;
+    height: 343px;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0; 
+}
+
+#title {
+    margin: 90px 0 5px 0;
+    background: #457B9D;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+ }   
+#description { 
+    width: 400px;
+    margin: 10px auto;
+    font-size: 20px;
+    background: #1D3557;
+    color: white;
+    border-radius: 10px;
+    padding: 5px 10px;
+}
+
+.things-img {
+    background-size: cover;
+    border-radius: 50%; 
+    width: 100px;
+    height: 100px;
+}
+
+
+.header { 
+    padding: 8px 0 20px 0;
+    background: #F1FAEE;
+    margin: 0 0 50px 0;
+} 
+
+#act { 
+    display: flex; 
+    align-items: center;
+    justify-content: space-around; 
+} 
+    
+.things { 
+    
+    margin-top: 30px;
+    width: 200px;
+    font-size: 14px;
+    }
+
+
+
+.avatar {    
+    width: 180px;
+    height: 200;
+    border-radius: 5px;
+}
+    
+.card { 
+    margin: 0px auto 30px auto;
+    width: 400px;
+    height: 200px;
+    display:flex;
+    justify-content: space-around;
+    align-items: center;
+    font-size: 14px;
+    padding: 1px 10px;
+    background: #A8DADC;
+    border-radius: 5px;
+    border-bottom: 6px solid #1D3557;
+} 
+
+
